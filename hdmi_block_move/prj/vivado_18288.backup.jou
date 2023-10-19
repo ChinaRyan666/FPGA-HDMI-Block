@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 18 16:56:00 2023
+# Process ID: 18288
+# Current directory: D:/Github/FPGA-HDMI-Block/hdmi_block_move/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7872 D:\Github\FPGA-HDMI-Block\hdmi_block_move\prj\hdmi_block_move.xpr
+# Log file: D:/Github/FPGA-HDMI-Block/hdmi_block_move/prj/vivado.log
+# Journal file: D:/Github/FPGA-HDMI-Block/hdmi_block_move/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/FPGA-HDMI-Block/hdmi_block_move/prj/hdmi_block_move.xpr
+update_compile_order -fileset sources_1

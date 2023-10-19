@@ -1,0 +1,355 @@
+
+*** Running vivado
+    with args -log top_hdmi_block_move.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_hdmi_block_move.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'D:/Xilinx/Vivado/2020.2/scripts/Vivado_init.tcl'
+source top_hdmi_block_move.tcl -notrace
+Command: synth_design -top top_hdmi_block_move -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 53048
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1213.414 ; gain = 33.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_hdmi_block_move' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/top_hdmi_block_move.v:29]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.runs/synth_1/.Xil/Vivado-57340-DESKTOP-OE2QKLR/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.runs/synth_1/.Xil/Vivado-57340-DESKTOP-OE2QKLR/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'video_driver' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_driver.v:24]
+	Parameter H_SYNC bound to: 11'b00000101000 
+	Parameter H_BACK bound to: 11'b00011011100 
+	Parameter H_DISP bound to: 11'b10100000000 
+	Parameter H_FRONT bound to: 11'b00001101110 
+	Parameter H_TOTAL bound to: 11'b11001110010 
+	Parameter V_SYNC bound to: 11'b00000000101 
+	Parameter V_BACK bound to: 11'b00000010100 
+	Parameter V_DISP bound to: 11'b01011010000 
+	Parameter V_FRONT bound to: 11'b00000000101 
+	Parameter V_TOTAL bound to: 11'b01011101110 
+INFO: [Synth 8-6155] done synthesizing module 'video_driver' (2#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_driver.v:24]
+INFO: [Synth 8-6157] synthesizing module 'video_display' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_display.v:29]
+	Parameter H_DISP bound to: 11'b10100000000 
+	Parameter V_DISP bound to: 11'b01011010000 
+	Parameter DIV_CNT bound to: 22'b0010110111000110110000 
+	Parameter SIDE_W bound to: 11'b00000101000 
+	Parameter BLOCK_W bound to: 11'b00000101000 
+	Parameter BLUE bound to: 24'b000000000000000011111111 
+	Parameter WHITE bound to: 24'b111111111111111111111111 
+	Parameter BLACK bound to: 24'b000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'video_display' (3#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_display.v:29]
+INFO: [Synth 8-6157] synthesizing module 'dvi_transmitter_top' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_transmitter_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'asyn_rst_syn' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/asyn_rst_syn.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'asyn_rst_syn' (4#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/asyn_rst_syn.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dvi_encoder' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_encoder.v:21]
+	Parameter CTRLTOKEN0 bound to: 10'b1101010100 
+	Parameter CTRLTOKEN1 bound to: 10'b0010101011 
+	Parameter CTRLTOKEN2 bound to: 10'b0101010100 
+	Parameter CTRLTOKEN3 bound to: 10'b1010101011 
+INFO: [Synth 8-6155] done synthesizing module 'dvi_encoder' (5#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_encoder.v:21]
+INFO: [Synth 8-6157] synthesizing module 'serializer_10_to_1' [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/serializer_10_to_1.v:25]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (6#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (6#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+INFO: [Synth 8-6155] done synthesizing module 'serializer_10_to_1' (7#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/serializer_10_to_1.v:25]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (8#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+INFO: [Synth 8-6155] done synthesizing module 'dvi_transmitter_top' (9#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_transmitter_top.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_hdmi_block_move' (10#1) [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/top_hdmi_block_move.v:29]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1269.328 ; gain = 89.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1287.254 ; gain = 107.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1287.254 ; gain = 107.625
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1299.254 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Finished Parsing XDC File [c:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.srcs/constrs_1/new/hdmi_block_move_top.xdc]
+WARNING: [Constraints 18-619] A clock with name 'sys_clk' already exists, overwriting the previous clock with the same name. [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.srcs/constrs_1/new/hdmi_block_move_top.xdc:11]
+Finished Parsing XDC File [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.srcs/constrs_1/new/hdmi_block_move_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.srcs/constrs_1/new/hdmi_block_move_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_hdmi_block_move_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_hdmi_block_move_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1406.797 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1406.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk. (constraint file  c:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk. (constraint file  c:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   20 Bit       Adders := 1     
+	   3 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 9     
+	   2 Input   10 Bit       Adders := 1     
+	   5 Input    5 Bit       Adders := 6     
+	   4 Input    5 Bit       Adders := 3     
+	   8 Input    4 Bit       Adders := 6     
+	   2 Input    4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               24 Bit    Registers := 1     
+	               22 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 4     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input   24 Bit        Muxes := 1     
+	   3 Input   24 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 7     
+	   5 Input   10 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 12    
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'sys_clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz   |     1|
+|2     |CARRY4    |    17|
+|3     |LUT1      |     7|
+|4     |LUT2      |    35|
+|5     |LUT3      |    25|
+|6     |LUT4      |    52|
+|7     |LUT5      |    37|
+|8     |LUT6      |    98|
+|9     |OSERDESE2 |     8|
+|11    |FDCE      |   105|
+|12    |FDPE      |    10|
+|13    |FDRE      |    14|
+|14    |IBUF      |     1|
+|15    |OBUFDS    |     4|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1406.797 ; gain = 107.625
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.797 ; gain = 227.168
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1406.797 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1420.410 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1420.410 ; gain = 240.781
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.runs/synth_1/top_hdmi_block_move.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_hdmi_block_move_utilization_synth.rpt -pb top_hdmi_block_move_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  7 10:57:01 2023...

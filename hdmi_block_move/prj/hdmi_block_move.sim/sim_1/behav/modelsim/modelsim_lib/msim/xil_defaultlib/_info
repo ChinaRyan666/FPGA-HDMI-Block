@@ -1,0 +1,261 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.sim/sim_1/behav/modelsim
+T_opt
+!s110 1688699267
+VR90^Bel7Xhj1h7S3_gni12
+04 22 4 work tb_top_hdmi_block_move fast 0
+04 4 4 work glbl fast 0
+=1-d8bbc14fe465-64a78183-1db-8a5c
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vasyn_rst_syn
+Z2 !s110 1688699263
+!i10b 1
+!s100 >914;^S0kYBh3c;_TAY1I3
+IOghlN`nV_X3a71;WzkH[b2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1627800978
+8../../../../../rtl/asyn_rst_syn.v
+F../../../../../rtl/asyn_rst_syn.v
+Z5 L0 23
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1688699263.000000
+Z8 !s107 ../../../../../sim/tb_top_hdmi_block_move.v|../../../../../rtl/video_driver.v|../../../../../rtl/video_display.v|../../../../../rtl/top_hdmi_block_move.v|../../../../../rtl/serializer_10_to_1.v|../../../../../rtl/dvi_transmitter_top.v|../../../../../rtl/dvi_encoder.v|../../../../../rtl/asyn_rst_syn.v|../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|
+Z9 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0|../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../../rtl/asyn_rst_syn.v|../../../../../rtl/dvi_encoder.v|../../../../../rtl/dvi_transmitter_top.v|../../../../../rtl/serializer_10_to_1.v|../../../../../rtl/top_hdmi_block_move.v|../../../../../rtl/video_display.v|../../../../../rtl/video_driver.v|../../../../../sim/tb_top_hdmi_block_move.v|
+!i113 0
+Z10 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -work xil_defaultlib +incdir+../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclk_wiz_0
+R2
+!i10b 1
+!s100 ]6ZN47;`OIg9@dZ@CgTR_3
+IndL`Vln8MFn_VEU?[Ukl>2
+R3
+R0
+Z12 w1688698561
+8../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+F../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+L0 71
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vclk_wiz_0_clk_wiz
+R2
+!i10b 1
+!s100 eIOdDS>a[ajIma?hl9>A:1
+IOc7TE2HE3n4el^Yl:8abX0
+R3
+R0
+R12
+8../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+F../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+L0 69
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vdvi_encoder
+R2
+!i10b 1
+!s100 nUGE:;U6]XZRm]>C2WAWg1
+IzjG38Qz:kQUA`Yh?:Eb:21
+R3
+R0
+R4
+8../../../../../rtl/dvi_encoder.v
+F../../../../../rtl/dvi_encoder.v
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vdvi_transmitter_top
+R2
+!i10b 1
+!s100 S2d=?C;X5Wkb8`ZA@WzXd3
+IGEMAThH_g4V=^2SUYgJEm3
+R3
+R0
+R4
+8../../../../../rtl/dvi_transmitter_top.v
+F../../../../../rtl/dvi_transmitter_top.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vglbl
+R2
+!i10b 1
+!s100 aGX4R92RO3^bD43HL2j:J2
+Ii@2]DfVnUU[WE=M5a<e[a3
+R3
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R10
+R1
+vserializer_10_to_1
+R2
+!i10b 1
+!s100 :R0eVknJm4HnaRznL8QQd0
+Ig;[zN@B5G9P;]>Pli:LB:0
+R3
+R0
+R4
+8../../../../../rtl/serializer_10_to_1.v
+F../../../../../rtl/serializer_10_to_1.v
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vtb_top_hdmi_block_move
+R2
+!i10b 1
+!s100 >QVEiimeYLUJFZE@aOn8E1
+IWj<@d@>QoS?Vi;n=556Pz1
+R3
+R0
+w1683620692
+8../../../../../sim/tb_top_hdmi_block_move.v
+F../../../../../sim/tb_top_hdmi_block_move.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vtop_hdmi_block_move
+R2
+!i10b 1
+!s100 IiP2L5A?3D6l?BM=aG^[i2
+Ig96[iIJHg]0=GD665idf93
+R3
+R0
+w1686043730
+8../../../../../rtl/top_hdmi_block_move.v
+F../../../../../rtl/top_hdmi_block_move.v
+Z13 L0 29
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vvideo_display
+R2
+!i10b 1
+!s100 BbeWF3fj6RSeSRR5daE<_3
+I=VJG6KC5>Q4;4O8H]]D9P0
+R3
+R0
+w1688696989
+8../../../../../rtl/video_display.v
+F../../../../../rtl/video_display.v
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vvideo_driver
+R2
+!i10b 1
+!s100 >jc6Zom>C_[i2]J?7C?9Z3
+IkAg[AzLoZSkigbnV`KRJU3
+R3
+R0
+w1687239900
+8../../../../../rtl/video_driver.v
+F../../../../../rtl/video_driver.v
+L0 24
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1

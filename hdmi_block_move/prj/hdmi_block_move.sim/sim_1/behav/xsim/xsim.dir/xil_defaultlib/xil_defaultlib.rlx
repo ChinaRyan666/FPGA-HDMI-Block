@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1688698561,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/asyn_rst_syn.v,,clk_wiz_0,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1688698561,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/prj/hdmi_block_move.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/asyn_rst_syn.v,1627800978,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_encoder.v,,asyn_rst_syn,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_encoder.v,1627800978,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_transmitter_top.v,,dvi_encoder,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/dvi_transmitter_top.v,1627800978,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/serializer_10_to_1.v,,dvi_transmitter_top,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/serializer_10_to_1.v,1627800978,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/top_hdmi_block_move.v,,serializer_10_to_1,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/top_hdmi_block_move.v,1686043730,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_display.v,,top_hdmi_block_move,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_display.v,1688696989,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_driver.v,,video_display,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/rtl/video_driver.v,1687239900,verilog,,C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/sim/tb_top_hdmi_block_move.v,,video_driver,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Admin/Desktop/wang/7020/14_hdmi_block_move/sim/tb_top_hdmi_block_move.v,1683620692,verilog,,,,tb_top_hdmi_block_move,,,../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0,,,,,

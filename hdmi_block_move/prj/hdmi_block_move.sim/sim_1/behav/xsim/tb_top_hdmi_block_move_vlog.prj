@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0" \
+"../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../hdmi_block_move.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../../rtl/asyn_rst_syn.v" \
+"../../../../../rtl/dvi_encoder.v" \
+"../../../../../rtl/dvi_transmitter_top.v" \
+"../../../../../rtl/serializer_10_to_1.v" \
+"../../../../../rtl/top_hdmi_block_move.v" \
+"../../../../../rtl/video_display.v" \
+"../../../../../rtl/video_driver.v" \
+"../../../../../sim/tb_top_hdmi_block_move.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
